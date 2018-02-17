@@ -1,0 +1,380 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="1ca01b84-de3f-4e0d-946a-b026d96ca6c7" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/assets/AUTHOR" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/AngryBirdsRedsMask.mtl" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/AngryBirdsRedsMask.obj" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/Angrybirdsredmask1Tex.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/Assets/Models/PBR/BusterDrone/Materials/Boden_baseColor.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/Assets/Models/PBR/BusterDrone/Materials/body_AO.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/Assets/Models/PBR/BusterDrone/Materials/body_albedo2048.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/Assets/Models/PBR/BusterDrone/Materials/body_emissive.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/Assets/Models/PBR/BusterDrone/Materials/body_metalgloss2048_converted_metalRoughness.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/Assets/Models/PBR/BusterDrone/Materials/body_normal.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/Assets/Models/PBR/BusterDrone/Materials/concrete_044_metalGloss_converted_metalRoughness.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/Assets/Models/PBR/BusterDrone/Materials/concrete_044_normal1024.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/Assets/Models/PBR/BusterDrone/Materials/leg_AO.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/Assets/Models/PBR/BusterDrone/Materials/leg_albedo.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/Assets/Models/PBR/BusterDrone/Materials/leg_metalgloss_converted_metalRoughness.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/Assets/Models/PBR/BusterDrone/Materials/leg_normal1024.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/DUCK.MTL" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/DUCK.OBJ" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/LICENSE.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/Stormtrooper_D.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/busterDrone.bin" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/busterDrone.gltf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/horned_owl.wav" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/images/DUCK.TIF" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/scene.bin" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/scene.gltf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/stormtrooper.dae" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/textures/flag_160961_edit_baseColor.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/images/Audio-Recorder.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/images/Bug-Finder.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/images/Dummy-Cam.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/images/Dummy-Outdoor.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/images/Eyeglasses.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/images/Fake-Lighter.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/images/Flash-Audio.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/images/Flash-Video.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/images/Hook-Remote.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/images/Jacket-Hook.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/images/Key-Fobs.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/images/Key-Remote-HD.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/images/Key-Remote.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/images/MicroSDHC-32GB.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/images/MicroSDHC-8GB.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/images/Microphone.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/images/Mini-Camera.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/images/Personal-Alarm.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/images/Shirt-Button.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/images/Smoke-Detector.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/images/Spy-Pen.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/images/Sunglasses.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/images/TV-Simulator.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/images/Tactical-Pen.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/images/TexturesCom_ConcreteBare0440_3_seamless_S.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/images/Wrist-Watch.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/images/banner.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/images/banner0.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/images/brick1.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/images/bug-finder-product.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/images/candle.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/images/ceiling2.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/images/coin.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/images/cup.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/images/fire.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/images/floor.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/images/torch2.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/images/welcome-back.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/images/welcome.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="326">
+              <caret line="120" column="0" lean-forward="false" selection-start-line="120" selection-start-column="0" selection-end-line="120" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>wall</find>
+      <find>cabana</find>
+      <find>default</find>
+      <find>fpmtl</find>
+      <find>uri</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/assets/bed/cabana.mtl" />
+        <option value="$PROJECT_DIR$/index.html" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
+    <option name="width" value="1440" />
+    <option name="height" value="797" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="myhome" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myhome" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myhome" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myhome" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="HbShouldOpenHtmlAsHb" value="" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/assets" />
+      <recent name="$PROJECT_DIR$/images" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1ca01b84-de3f-4e0d-946a-b026d96ca6c7" name="Default" comment="" />
+      <created>1518752076725</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1518752076725</updated>
+      <workItem from="1518752077979" duration="1599000" />
+      <workItem from="1518759193925" duration="168000" />
+      <workItem from="1518796777453" duration="213000" />
+      <workItem from="1518800498128" duration="13864000" />
+      <workItem from="1518830028527" duration="11236000" />
+      <workItem from="1518894365879" duration="1721000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="28801000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1440" height="797" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25158563" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32905984" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/wall.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/ceiling.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/TexturesCom_ConcreteFloors0081_1_seamless_S.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/bed/Cabana Texture.png" />
+    <entry file="file://$PROJECT_DIR$/assets/bed/cabana.mtl" />
+    <entry file="file://$PROJECT_DIR$/assets/bed/cabana.obj" />
+    <entry file="file://$PROJECT_DIR$/assets/chair/chair.obj" />
+    <entry file="file://$PROJECT_DIR$/assets/couch/AUTHOR">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/couch/scene.gltf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="1388" column="10" lean-forward="false" selection-start-line="1388" selection-start-column="7" selection-end-line="1388" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/tv_screen/scene.gltf" />
+    <entry file="file://$PROJECT_DIR$/assets/tv_screen/AUTHOR" />
+    <entry file="file://$PROJECT_DIR$/assets/tv_cabinets/scene.gltf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="120" column="10" lean-forward="false" selection-start-line="120" selection-start-column="7" selection-end-line="120" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/smart_tv/scene.gltf" />
+    <entry file="file://$PROJECT_DIR$/assets/smart_tv/AUTHOR" />
+    <entry file="file://$PROJECT_DIR$/assets/tv/AUTHOR">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/table/AUTHOR">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/table/scene.gltf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="267" column="10" lean-forward="false" selection-start-line="267" selection-start-column="7" selection-end-line="267" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/air_conditioner/scene.gltf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="120" column="10" lean-forward="false" selection-start-line="120" selection-start-column="7" selection-end-line="120" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/pool_Table/scene.gltf" />
+    <entry file="file://$PROJECT_DIR$/assets/pool_Table/textures/Material__3_baseColor.jpg" />
+    <entry file="file://$PROJECT_DIR$/assets/kitchen/kitchen.gltf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="470">
+          <caret line="295" column="10" lean-forward="false" selection-start-line="295" selection-start-column="7" selection-end-line="295" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="326">
+          <caret line="120" column="0" lean-forward="false" selection-start-line="120" selection-start-column="0" selection-end-line="120" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
