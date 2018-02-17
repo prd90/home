@@ -15,8 +15,12 @@
     <a-scene>
         <a-assets>
             <img id="wall2" src="images/wall2.png">
-            <img id="midwall" src="images/md2.jpg">
+            <img id="midwall" src="images/Middle_Wall.jpg">
+            <img id="midwall2" src="images/mid_liv.png">
             <img id="window" src="images/window.jpg">
+            <img id="fire" src="assets/fireplace/fire.gif">
+
+
             <a-asset-item id="bed" src="assets/bed/scene.gltf"></a-asset-item>
             <a-asset-item id="bookshelf" src="assets/bookshelf/scene.gltf"></a-asset-item>
             <a-asset-item id="couch" src="assets/couch/scene.gltf"></a-asset-item>
@@ -40,7 +44,7 @@
 
             <a-asset-item id="kitchen" src="assets/kitchen-collada/model.dae"></a-asset-item>
 
-            <img id="fire" src="assets/fireplace/fire.gif">
+
         </a-assets>
 
         <a-sky color="#ECECEC"></a-sky>
@@ -93,7 +97,7 @@ roughness: 1; src: url(images/wall.jpg); repeat: 12 2"></a-entity>
         <a-box src="#window" height="5" width="6" position="75 9 -20" rotation="0 0 90"></a-box>
 
     <!-- Bed -->
-        <a-entity gltf-model="#bed"  scale="5.5 5 5" position="59 0 -7" animation-mixer></a-entity>
+        <a-entity gltf-model="#bed"  scale="0.03 0.03 0.03" position="59 3.3 -13" animation-mixer></a-entity>
 
     <!-- A.C. -->
         <a-entity gltf-model="#ac" scale="0.7 0.7 0.7" position="58.2 6.3 -19" rotation="0 0 0" animation-mixer> </a-entity>
@@ -121,7 +125,7 @@ roughness: 1; src: url(images/wall.jpg); repeat: 12 2"></a-entity>
 
      <!-- Kitchen Walls -->
         <a-box src="#wall2" height="14" width="0.3" position="-22 6 -6" geometry="depth:25"></a-box> <!--Left -->
-        <a-box src="#midwall" height="14" width="62" position="9 6 -19" rotation="0 0 0" ></a-box>  <!-- Middle -->
+        <a-box src="#midwall2" height="14" width="62" position="9 6 -19" rotation="0 0 0" ></a-box>  <!-- Middle -->
 
      <!-- Kitchen -->
         <!--<a-entity gltf-model="#kitchen" scale="10 6 6" position="-70 0 -10" rotation="0 90 0" animation-mixer> </a-entity>-->
