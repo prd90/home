@@ -9,7 +9,7 @@ This Project was created in [**A-Frame**](https://aframe.io) as a part of my cou
 The demo for the project can be found [here](https://prd90.github.io/myhome)
 
 ### Video Link ###
-The demo for the project can be found here.
+The demo for the project can be found [here](https://youtu.be/6eY8UrCKfuc)
 
 ### Screenshots ###
 ##### 1. Bedroom. #####
