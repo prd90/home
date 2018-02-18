@@ -3,11 +3,13 @@
 <head>
     <script src="https://aframe.io/releases/0.7.0/aframe.min.js"></script>
 
-    <script src="https://cdn.rawgit.com/donmccurdy/aframe-extras/v1.14.0/dist/aframe-extras.min.js"></script>
+    <!-- For gltf animation -->
+    <script src="https://cdn.rawgit.com/donmccurdy/aframe-extras/v3.13.1/dist/aframe-extras.min.js"></script>
 
     <!-- For gif -->
     <script src="https://rawgit.com/mayognaise/aframe-gif-shader/master/dist/aframe-gif-shader.min.js"></script>
     <script src="https://rawgit.com/mayognaise/aframe-gif-component/master/dist/aframe-gif-component.min.js"></script>
+
 </head>
 
 <body>
@@ -19,7 +21,11 @@
             <img id="midwall2" src="images/mid_liv.png">
             <img id="window" src="images/window.jpg">
             <img id="fire" src="assets/fireplace/fire.gif">
-
+            <img id="office-mid" src="images/office_mid.jpg">
+            <img id="office-sides" src="images/office_sides.png">
+            <img id="restroom-mid" src="images/restroom-middle.jpg">
+            <img id="restroom-sides" src="images/restroom-sidewall.jpg">
+            <img id="granite" src="images/granite.jpg">
 
             <a-asset-item id="bed" src="assets/bed/scene.gltf"></a-asset-item>
             <a-asset-item id="bookshelf" src="assets/bookshelf/scene.gltf"></a-asset-item>
@@ -38,17 +44,43 @@
             <a-asset-item id="pool-mtl" src="assets/pool-table/pool-table.mtl"></a-asset-item>
             <a-asset-item id="pool-obj" src="assets/pool-table/pool-table.obj"></a-asset-item>
 
-            <!--<a-asset-item id="kitchen" src="assets/kitchen/kitchen.gltf"></a-asset-item>-->
-            <!--<a-asset-item id="kit-mtl" src="assets/kitchen/kitchen.mtl"></a-asset-item>-->
-            <!--<a-asset-item id="kit-obj" src="assets/kitchen/kitchen.obj"></a-asset-item>-->
+            <a-asset-item id="door1" src="assets/door1/scene.gltf"></a-asset-item>
+
+            <a-asset-item id="door2-mtl" src="assets/door2/materials.mtl"></a-asset-item>
+            <a-asset-item id="door2-obj" src="assets/door2/model.obj"></a-asset-item>
 
             <a-asset-item id="kitchen" src="assets/kitchen-collada/model.dae"></a-asset-item>
 
 
+
+            <a-asset-item id="faucet-mtl" src="assets/faucet/materials.mtl"></a-asset-item>
+            <a-asset-item id="faucet-obj" src="assets/faucet/model.obj"></a-asset-item>
+
+            <a-asset-item id="sink-mtl" src="assets/plate/materials.mtl"></a-asset-item>
+            <a-asset-item id="sink-obj" src="assets/plate/model.obj"></a-asset-item>
+
+
+            <a-asset-item id="toilet-mtl" src="assets/toilet/materials.mtl"></a-asset-item>
+            <a-asset-item id="toilet-obj" src="assets/toilet/model.obj"></a-asset-item>
+
+            <a-asset-item id="shower-mtl" src="assets/shower/materials.mtl"></a-asset-item>
+            <a-asset-item id="shower-obj" src="assets/shower/model.obj"></a-asset-item>
+
+            <a-asset-item id="lamp-mtl" src="assets/lamp/materials.mtl"></a-asset-item>
+            <a-asset-item id="lamp-obj" src="assets/lamp/model.obj"></a-asset-item>
+
+
+            <a-asset-item id="comp-mtl" src="assets/compdesk/materials.mtl"></a-asset-item>
+            <a-asset-item id="comp-obj" src="assets/compdesk/model.obj"></a-asset-item>
+
+            <a-asset-item id="phoenix" src="assets/phoenix_bird/scene.gltf"></a-asset-item>
+
+            <!--<a-asset-item id="dog" src="assets/dog_an/scene.gltf"></a-asset-item>-->
+
         </a-assets>
 
         <a-sky color="#ECECEC"></a-sky>
-        <a-entity position="54 5 12">  <!-- Adjusted y to g from 1.15 [54 5 12]-->
+        <a-entity position="54 5 14">  <!-- Adjusted y to g from 1.15 [54 5 12]-->
             <a-camera universal-controls>
                 <a-entity raycaster="far: 150; objects: .intersectable" cursor geometry="primitive: ring; radiusOuter: 0.015;
                               radiusInner: 0.01; segmentsTheta: 32" material="color: #283644; shader: flat" position="0 0 -0.75"></a-entity>
@@ -85,19 +117,19 @@ roughness: 1; repeat: 12 2"></a-entity>
 roughness: 1; src: url(images/wall.jpg); repeat: 12 2"></a-entity>
             
             
-     <!-- Side Walls/Room Walls -->
+     <!-- Bed Room Walls -->
         <a-box src="#wall2" height="14" width="0.3" position="40 6 -6" geometry="depth:25"></a-box> <!--Left -->
-        <a-box src="#midwall" height="40" width="14" position="60 6 -20" rotation="0 0 90"></a-box>  <!-- Middle -->
+        <a-box src="#midwall" height="40" width="14" position="60 6 -19.8" rotation="0 0 90"></a-box>  <!-- Middle -->
         <a-box src="#wall2" height="14" width="0.3" position="79 6 -6" geometry="depth:26"></a-box> <!-- Right -->
 
    <!-- Left-window -->
-        <a-box src="#window" height="5" width="6" position="45 9 -20" rotation="0 0 90"></a-box>
+        <a-box src="#window" height="5" width="6" position="45 9 -19.7" rotation="0 0 90"></a-box>
 
     <!-- Right-window -->
-        <a-box src="#window" height="5" width="6" position="75 9 -20" rotation="0 0 90"></a-box>
+        <a-box src="#window" height="5" width="6" position="75 9 -19.7" rotation="0 0 90"></a-box>
 
     <!-- Bed -->
-        <a-entity gltf-model="#bed"  scale="0.03 0.03 0.03" position="59 3.3 -13" animation-mixer></a-entity>
+        <a-entity id="Bed" gltf-model="#bed" scale="0.04 0.031 0.03" position="59 3.3 -13" animation-mixer></a-entity>
 
     <!-- A.C. -->
         <a-entity gltf-model="#ac" scale="0.7 0.7 0.7" position="58.2 6.3 -19" rotation="0 0 0" animation-mixer> </a-entity>
@@ -108,7 +140,7 @@ roughness: 1; src: url(images/wall.jpg); repeat: 12 2"></a-entity>
         <a-entity  geometry="primitive:box;depth:0" material="shader:gif;src:#fire" scale="4 4 4" position="-10 4 -16" gif=""></a-entity>
 
     <!-- Bookshelf -->
-        <a-entity gltf-model="#bookshelf" scale="0.3 0.3 0.3" position="38 0 -15" rotation="0 -90 0" animation-mixer> </a-entity>
+        <a-entity gltf-model="#bookshelf"  scale="0.3 0.3 0.3" position="38 5 -8" rotation="0 -90 0" animation-mixer> </a-entity>
 
     <!-- Couch -->
         <a-entity gltf-model="#couch" scale="8 7 8" position="17 2 3" rotation="0 180 0" animation-mixer> </a-entity>
@@ -123,14 +155,62 @@ roughness: 1; src: url(images/wall.jpg); repeat: 12 2"></a-entity>
     <!-- Pool Table -->
         <a-obj-model src="#pool-obj" mtl="#pool-mtl" scale="0.8 0.8 0.8" rotation="0 -90 0" position="-13 0 4"></a-obj-model>
 
-     <!-- Kitchen Walls -->
-        <a-box src="#wall2" height="14" width="0.3" position="-22 6 -6" geometry="depth:25"></a-box> <!--Left -->
+     <!-- Living Room Walls -->
+        <a-box src="#wall2" height="14" width="0.15" position="-22 6 -4" geometry="depth:34"></a-box> <!--Left -->
+     <!-- Door -->
+        <a-entity gltf-model="#door1" scale="4.5 5 5.5" position="-21.7 0 -10"  rotation="0 0 0" animation-mixer> </a-entity>
         <a-box src="#midwall2" height="14" width="62" position="9 6 -19" rotation="0 0 0" ></a-box>  <!-- Middle -->
 
      <!-- Kitchen -->
-        <!--<a-entity gltf-model="#kitchen" scale="10 6 6" position="-70 0 -10" rotation="0 90 0" animation-mixer> </a-entity>-->
-        <!--<a-obj-model src="#kit-obj" mtl="#kit-mtl" scale="0.8 0.8 0.8" rotation="0 -90 0" position="-60 0 3"></a-obj-model>-->
-        <a-collada-model src="#kitchen" scale="6 6 6 " position="-78 0 10"></a-collada-model>
+        <a-collada-model src="#kitchen" scale="6 6 6 " position="-79 0 13"></a-collada-model>
+
+     <!-- Restroom Walls-->
+        <a-box src="#restroom-sides" height="14" width="0.3" position="-51.4 6 -12" geometry="depth:17"></a-box>  <!-- Left -->
+        <a-box src="#restroom-mid" height="14" width="30" position="-37 6 -19.9" rotation="0 0 0" ></a-box>  <!-- Middle -->
+        <a-box src="#restroom-sides" height="14" width="0.15" position="-22.1 6 -12" geometry="depth:17"></a-box>  <!-- Right -->
+
+     <!-- Restroom Sink -->
+        <a-box src="#granite" height="4.5" width="8" depth="4.5" position="-40 2 -17"></a-box> <!-- Material -->
+        <a-obj-model src="#faucet-obj" mtl="#faucet-mtl" scale="4 4 4" rotation="0 -90 0" position="-40 4.8 -17"></a-obj-model> <!--Faucet-->
+        <a-obj-model src="#sink-obj" scale="21 21 21"  position="-40 4.8 -17"></a-obj-model> <!-- sink -->
+
+     <!-- Toilet -->
+        <!--<a-entity gltf-model="#toilet" scale="0.01 0.01 0.01" position="-50 3 -12"  rotation="0 0 0" animation-mixer> </a-entity>-->
+        <a-obj-model src="#toilet-obj" mtl="#toilet-mtl" scale="11 11 11" rotation="0 -90 0" position="-50 3 -16"></a-obj-model>
+
+      <!-- Shower -->
+        <a-obj-model src="#shower-obj" mtl="#shower-mtl" scale="7.3 6.2 5" rotation="0 0 0" position="-29 5 -10"></a-obj-model>
+
+     <!-- Common wall Restroom/Office -->
+        <a-box src="#restroom-mid" height="14" width="30" position="-37 6 -4" rotation="0 0 0" ></a-box>  <!-- Middle -->
+     <!-- Office Walls -->
+        <a-box src="#office-sides" height="14" width="0.3" position="-51.4 6 5" geometry="depth:17"></a-box>  <!-- Left -->
+        <a-box src="#office-mid" height="14" width="30" position="-37 6 -3.8" rotation="0 0 0" ></a-box>  <!-- Middle -->
+        <a-box src="#office-sides" height="14" width="0.15" position="-22.1 6 4.8" geometry="depth:16.5"></a-box>  <!-- Right -->
+
+     <!-- Office door -->
+        <a-obj-model src="#door2-obj" mtl="#door2-mtl" scale="2 2.4 2" rotation="0 0 0" position="-49 5 -3"></a-obj-model>
+
+     <!-- Computer -->
+        <a-obj-model src="#comp-obj" mtl="#comp-mtl" scale="5.5 5.6 5.5" rotation="0 90 0" position="-25.7 3 4"></a-obj-model>
+        <!--<a-entity gltf-model="#computer" scale="50 50 50" position="-49 2 -4"  rotation="0 0 0" animation-mixer> </a-entity>-->
+
+     <!-- Lamp -->
+        <a-obj-model src="#lamp-obj" mtl="#lamp-mtl" scale="2 2 2" rotation="0 0 0" position="43 5 -7"></a-obj-model>
+        <!--<a-entity light="type: spot; color: yellow; intensity: 1" position="50 -5 -3"></a-entity>-->
+
+        <!--<a-light type="directional" position="50 5 3" rotation="-90 0 0" target="#directionaltarget">
+            <a-obj-model id="directionaltarget" src="#lamp-obj" mtl="#lamp-mtl" scale="2 2 2" rotation="0 0 0" position="50 5 -3"></a-obj-model>
+        </a-light>-->
+
+        <a-entity gltf-model="#phoenix" scale="0.007 0.007 0.007"  animation-mixer>
+
+            <a-animation attribute="position" dur="17000"  begin="4000" from="-85 8 14" to="86 8 14"  repeat="indefinite"></a-animation>
+
+            <!--<a-animation attribute="position" dur="15000" begin="4000" from="-85 6 14" to="88 6 14" direction="alternate" repeat="indefinite"></a-animation>-->
+
+        </a-entity>
+
 
     </a-scene>
 

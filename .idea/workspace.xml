@@ -3,14 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="1ca01b84-de3f-4e0d-946a-b026d96ca6c7" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/assets/bed/AUTHOR" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/bed/scene.bin" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/bed/scene.gltf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/bed/textures/_auto_1_baseColor.jpeg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/bed/textures/_auto_1_normal.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/bed/textures/_auto_2_baseColor.jpeg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/Lockpicks.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/TexturesCom_ConcreteFloors0081_1_seamless_S.jpg" afterPath="" />
       <change beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -28,8 +20,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="134">
-              <caret line="99" column="80" lean-forward="false" selection-start-line="99" selection-start-column="80" selection-end-line="99" selection-end-column="80" />
+            <state relative-caret-position="226">
+              <caret line="128" column="70" lean-forward="false" selection-start-line="128" selection-start-column="70" selection-end-line="128" selection-end-column="70" />
               <folding />
             </state>
           </provider>
@@ -43,8 +35,10 @@
       <find>cabana</find>
       <find>default</find>
       <find>fpmtl</find>
-      <find>uri</find>
       <find>midwall</find>
+      <find>cabit</find>
+      <find>lamp-obj</find>
+      <find>uri</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -54,6 +48,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/assets/bed/cabana.mtl" />
+        <option value="$PROJECT_DIR$/assets/door2/Door.mtl" />
+        <option value="$PROJECT_DIR$/assets/restroom/materials.mtl" />
         <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
@@ -104,7 +100,12 @@
               <item name="myhome" type="b2602c69:ProjectViewProjectNode" />
               <item name="myhome" type="462c0819:PsiDirectoryNode" />
               <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="bed" type="462c0819:PsiDirectoryNode" />
+              <item name="phoenix_bird" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myhome" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myhome" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -155,12 +156,13 @@
       <workItem from="1518796777453" duration="213000" />
       <workItem from="1518800498128" duration="13864000" />
       <workItem from="1518830028527" duration="11236000" />
-      <workItem from="1518894365879" duration="3881000" />
+      <workItem from="1518894365879" duration="3922000" />
+      <workItem from="1518901316455" duration="24731000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30961000" />
+    <option name="totallyTimeSpent" value="55733000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="797" extended-state="0" />
@@ -236,6 +238,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/images/wall.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -246,11 +256,7 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/images/TexturesCom_ConcreteFloors0081_1_seamless_S.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/images/TexturesCom_ConcreteFloors0081_1_seamless_S.jpg" />
     <entry file="file://$PROJECT_DIR$/assets/bed/Cabana Texture.png" />
     <entry file="file://$PROJECT_DIR$/assets/bed/cabana.mtl" />
     <entry file="file://$PROJECT_DIR$/assets/bed/cabana.obj" />
@@ -310,25 +316,99 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/pool_Table/scene.gltf" />
     <entry file="file://$PROJECT_DIR$/assets/pool_Table/textures/Material__3_baseColor.jpg" />
-    <entry file="file://$PROJECT_DIR$/assets/kitchen/kitchen.gltf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="470">
-          <caret line="295" column="10" lean-forward="false" selection-start-line="295" selection-start-column="7" selection-end-line="295" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/kitchen/kitchen.gltf" />
     <entry file="file://$PROJECT_DIR$/assets/bed/scene.gltf">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
           <caret line="239" column="10" lean-forward="false" selection-start-line="239" selection-start-column="7" selection-end-line="239" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/beam.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/brick3.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/md2.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/Middle_Wall.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/door2/Door Texture.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/door2/Door.mtl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="11" lean-forward="true" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/restroom/materials.mtl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="512">
+          <caret line="85" column="9" lean-forward="false" selection-start-line="85" selection-start-column="9" selection-end-line="85" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/cabit/scene.gltf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="1022" column="10" lean-forward="false" selection-start-line="1022" selection-start-column="7" selection-end-line="1022" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/sink/scene.gltf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1456">
+          <caret line="301" column="12" lean-forward="false" selection-start-line="301" selection-start-column="12" selection-end-line="301" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/toilet/Toilet_01.mtl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/computer/scene.gltf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="1289" column="10" lean-forward="false" selection-start-line="1289" selection-start-column="7" selection-end-line="1289" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/phoenix_bird/scene.gltf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="11623" column="10" lean-forward="false" selection-start-line="11623" selection-start-column="7" selection-end-line="11623" selection-end-column="10" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="134">
-          <caret line="99" column="80" lean-forward="false" selection-start-line="99" selection-start-column="80" selection-end-line="99" selection-end-column="80" />
+        <state relative-caret-position="226">
+          <caret line="128" column="70" lean-forward="false" selection-start-line="128" selection-start-column="70" selection-end-line="128" selection-end-column="70" />
           <folding />
         </state>
       </provider>
