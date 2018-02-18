@@ -1,8 +1,8 @@
 ## Project 1 Report
 
-This Project was created in [**A-Frame**](https://aframe.io) as a part of my coursework for **CS - 5331: Virtual Reality** at Texas Tech University, Departmof Computer Science.
+This Project was created in [**A-Frame**](https://aframe.io) as a part of my coursework for **CS - 5331: Virtual Reality** at Texas Tech University, Department of Computer Science.
 
-![Main](../screenshots/main.jpg)
+![Main](/screenshots/main.jpg)
 
 
 
