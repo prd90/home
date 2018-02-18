@@ -6,7 +6,7 @@ This Project was created in [**A-Frame**](https://aframe.io) as a part of my cou
 
 
 ### Link to Demo ###
-The demo for the project can be found here.
+The demo for the project can be found [here](https://prd90.github.io/myhome)
 
 ### Video Link ###
 The demo for the project can be found here.
@@ -37,7 +37,7 @@ Resources Used (project 1):
 https://www.textures.com/download/grungemaps0044/12742
 
 
-#### Bed:####
+#### Bed: ####
 https://sketchfab.com/models/715fd6855bf7437e8e239ee541a7c2e8 
 
 
