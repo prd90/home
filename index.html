@@ -10,11 +10,36 @@
     <script src="https://rawgit.com/mayognaise/aframe-gif-shader/master/dist/aframe-gif-shader.min.js"></script>
     <script src="https://rawgit.com/mayognaise/aframe-gif-component/master/dist/aframe-gif-component.min.js"></script>
 
+    <!-- Color wheel -->
+    <!--<script src="https://unpkg.com/aframe-colorwheel-component/dist/aframe-colorwheel-component.min.js"></script>-->
+    <!--<script type="text/javascript">-->
+        <!--//Example of using the color wheel with events-->
+        <!--AFRAME.registerComponent('color-listener', {-->
+            <!--init: function(){-->
+                <!--const el = this.el;-->
+                <!--document.body.addEventListener('didchangecolor', function(evt){-->
+
+                    <!--//Available return formats from colorwheel-->
+                    <!--let style = evt.detail.style-->
+                    <!--let rgb = evt.detail.rgb-->
+                    <!--let hsv = evt.detail.hsv-->
+                    <!--let hex = evt.detail.hex-->
+
+                    <!--el.setAttribute('color', hex)-->
+                <!--})-->
+            <!--}-->
+        <!--})-->
+    <!--</script>-->
+
 </head>
 
 <body>
 
     <a-scene>
+         <!--Default light injected by a-frame -->
+        <a-entity light="type: ambient; color: #BBB"></a-entity>
+        <a-entity light="type: directional; color: #FFF; intensity: 0.9" position="-0.5 1 1"></a-entity>
+
         <a-assets>
             <img id="wall2" src="images/wall2.png">
             <img id="midwall" src="images/Middle_Wall.jpg">
